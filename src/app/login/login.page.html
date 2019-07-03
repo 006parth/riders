@@ -1,0 +1,33 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content>
+  <div class="app-name-container">
+    <ion-label class="app-name">Pillivery</ion-label>
+  </div>
+  <div class="login-container">
+    <ion-label class="fs-30">Login</ion-label>
+  </div>
+  <div >
+    <ion-item class="pl-20 pr-20">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+    <ion-item class="pl-20 pr-20">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+    <div class="forgot">
+      <p (click)="forgotpwd()">Forgot Password?</p>
+    </div>
+    <div class="ta-centre mt-20">
+      <ion-button class="submit-btn" (click)="login()" fill="clear">Submit</ion-button>
+    </div>
+  </div>
+  <div class="ta-centre mt-20">
+    <ion-button class="submit-btn" (click)="signup()" fill="clear">Signup</ion-button>
+  </div>
+</ion-content>

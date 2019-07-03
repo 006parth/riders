@@ -1,0 +1,7 @@
+{
+  "name": "riders",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
